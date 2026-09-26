@@ -377,7 +377,7 @@ h2 em {
 }
 
 .alternate i {
-    background: #89bfce
+    background: #89a0ce
 }
 
 .visual-footer {
@@ -624,12 +624,12 @@ footer>span {
 }
 
 body.intelligence {
-    --ink: #eff4f4;
-    --muted: #a6b4b8;
-    --accent: #65e0cb;
-    --paper: #101819;
-    --pale: #172224;
-    --line: #304144;
+    --ink: #eff1f4;
+    --muted: #a6acb8;
+    --accent: #658ee0;
+    --paper: #101319;
+    --pale: #171b24;
+    --line: #303744;
     font-family: 'IBM Plex Sans', Arial, sans-serif
 }
 
@@ -651,12 +651,12 @@ body.intelligence {
 }
 
 .intelligence .primary {
-    color: #0c2825
+    color: #0c1528
 }
 
 .intelligence .visual {
-    background: #172627;
-    border: 1px solid #466460;
+    background: #171c27;
+    border: 1px solid #465064;
     box-shadow: none;
     border-radius: 0
 }
@@ -668,37 +668,37 @@ body.intelligence {
 .intelligence .visual-heading,
 .intelligence .tile-icon,
 .intelligence .visual-footer {
-    color: #80bbaf
+    color: #8094bb
 }
 
 .intelligence .property,
 .intelligence .data-grid>div {
-    background: #101c1d;
-    border-color: #35504d
+    background: #10141d;
+    border-color: #353e50
 }
 
 .intelligence .property-icon {
-    color: #65e0cb
+    color: #658ee0
 }
 
 .intelligence .record-tag {
-    background: #214a42;
-    color: #91e0cc
+    background: #212f4a;
+    color: #91abe0
 }
 
 .intelligence .track i,
 .intelligence .mini-lines i {
-    background: #65c5b2
+    background: #6585c5
 }
 
 .intelligence .track i:last-child {
-    background: #35504d
+    background: #353e50
 }
 
 .intelligence .data-grid p,
 .intelligence .data-grid small,
 .intelligence .property div>span {
-    color: #a6bdb8
+    color: #a6aebd
 }
 
 .intelligence .product-grid {
@@ -736,7 +736,7 @@ body.intelligence {
 }
 
 .intelligence .principles {
-    background: #172224
+    background: #171b24
 }
 
 .intelligence .section-top>p {
@@ -744,12 +744,12 @@ body.intelligence {
 }
 
 body.partnership {
-    --ink: #153a35;
-    --muted: #586963;
-    --accent: #22735b;
+    --ink: #15213a;
+    --muted: #585e69;
+    --accent: #223d73;
     --paper: #fff;
-    --pale: #f0f5f2;
-    --line: #d8e3dd;
+    --pale: #f0f2f5;
+    --line: #d8dce3;
     font-family: 'DM Sans', Arial, sans-serif
 }
 
@@ -803,7 +803,7 @@ body.partnership {
     width: 100%;
     margin: auto;
     box-shadow: none;
-    background: #153d35;
+    background: #15223d;
     border-radius: 16px;
     padding: 28px 34px
 }
@@ -838,17 +838,17 @@ body.partnership {
 .partnership .visual-heading,
 .partnership .visual-footer,
 .partnership .tile-icon {
-    color: #b0d6c7
+    color: #b0bdd6
 }
 
 .partnership .data-grid p,
 .partnership .data-grid small {
-    color: #c0d4cb
+    color: #c0c7d4
 }
 
 .partnership .track i,
 .partnership .mini-lines i {
-    background: #83c8a9
+    background: #839ac8
 }
 
 .partnership .track i:last-child {
@@ -1501,7 +1501,7 @@ body.partnership {
 
 .intelligence .platform-rows p,
 .intelligence .view-source p {
-    color: #c5d2ce
+    color: #c5c9d2
 }
 
 .partnership .cohesion-view .property {
@@ -1822,30 +1822,30 @@ section#mission {
 
 
 .intelligence .value-panel {
-    background: #172627;
-    border-color: #466460
+    background: #171c27;
+    border-color: #465064
 }
 
 .intelligence .value-panel h2 em {
-    color: #65e0cb
+    color: #658ee0
 }
 
 .intelligence .value-kicker,
 .intelligence .value-link {
-    color: #a5dccf
+    color: #a5b7dc
 }
 
 .partnership .value-panel {
     max-width: 1000px;
     width: 100%;
     margin: auto;
-    background: #153d35;
-    border-color: #375b50;
+    background: #15223d;
+    border-color: #37435b;
     border-radius: 16px
 }
 
 .partnership .value-panel h2 em {
-    color: #a6dec2
+    color: #a6b9de
 }
 
 .partnership .value-panel h2 br {
@@ -1946,8 +1946,8 @@ section#mission {
 }
 
 .product-gas {
-    --product-accent: #087b75;
-    --product-tint: #edf8f6
+    --product-accent: #082e7b;
+    --product-tint: #edf1f8
 }
 
 .product-electrical {
@@ -3016,7 +3016,7 @@ header nav {
 }
 
 .journey-node.evidence {
-    border-top: 3px solid #167866
+    border-top: 3px solid #163778
 }
 
 .journey-node.exception {

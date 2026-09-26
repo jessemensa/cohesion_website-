@@ -2490,9 +2490,9 @@ html {
 }
 
 .result-mark.ok {
-    color: #206652;
-    background: #edf6f2;
-    border-color: #b8d4c9
+    color: #203766;
+    background: #edf0f6;
+    border-color: #b8c1d4
 }
 
 .agent-result-row strong {

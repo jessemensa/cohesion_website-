@@ -5,11 +5,11 @@
   color-scheme: light;
 }
 body.enterprise-redesign {
-  --ink: #142c35;
-  --muted: #5b6c74;
-  --accent: #176e60;
-  --line: #dce5e5;
-  --pale: #f3f7f7;
+  --ink: #142b50;
+  --muted: #5b6374;
+  --accent: #235ce0;
+  --line: #dcdfe5;
+  --pale: #f3f4f7;
   font-family: "DM Sans", Arial, sans-serif;
   background: #fff;
   color: var(--ink);
@@ -33,7 +33,7 @@ a:hover {
 a:focus-visible,
 button:focus-visible,
 [tabindex="0"]:focus-visible {
-  outline: 3px solid #bd7515;
+  outline: 3px solid #2563eb;
   outline-offset: 5px;
 }
 a,
@@ -69,11 +69,11 @@ svg {
   font-size: 12px;
   letter-spacing: 0.13em;
   font-weight: 650;
-  color: #32695f;
+  color: #235ce0;
 }
 .enterprise-redesign h2 em {
   font-style: normal;
-  color: #477469;
+  color: #235ce0;
 }
 .skip-link {
   position: fixed;
@@ -104,6 +104,7 @@ svg {
   gap: 36px;
 }
 .brand {
+  color: #235ce0;
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -120,7 +121,7 @@ svg {
   stroke-width: 2.7;
 }
 .brand-dot {
-  color: #288979;
+  color: #235ce0;
   margin-left: -7px;
 }
 .wide-nav {
@@ -133,24 +134,24 @@ svg {
   font-weight: 500;
 }
 .wide-nav a:hover {
-  color: #16846f;
+  color: #1948b8;
 }
 .button {
   display: inline-flex;
   gap: 24px;
   align-items: center;
   justify-content: center;
-  background: #153f3c;
+  background: #235ce0;
   color: #fff;
   padding: 15px 22px;
-  border: 1px solid #153f3c;
+  border: 1px solid #235ce0;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.4;
 }
 .button:hover {
-  background: #25685c;
+  background: #1948b8;
 }
 .header-cta {
   padding: 12px 18px;
@@ -159,7 +160,7 @@ svg {
   display: none;
 }
 .new-hero {
-  background: #f3f7f6;
+  background: #f3f4f7;
   padding: 76px max(5%, calc((100vw - 1280px) / 2)) 0;
   position: relative;
 }
@@ -179,7 +180,7 @@ svg {
   display: inline-block;
   width: 7px;
   height: 7px;
-  background: #398f78;
+  background: #235ce0;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -191,12 +192,12 @@ svg {
   margin-bottom: 26px;
 }
 .new-hero h1 em {
-  color: #357e6e;
+  color: #235ce0;
   font-style: normal;
 }
 .hero-description {
   max-width: 480px;
-  color: #586b72;
+  color: #586172;
   font-size: 18px;
   line-height: 1.75;
 }
@@ -214,7 +215,7 @@ svg {
 }
 .hero-note {
   margin-top: 38px;
-  color: #62746f;
+  color: #626874;
   font-size: 13px;
   display: flex;
   align-items: center;
@@ -223,13 +224,13 @@ svg {
 .note-rule {
   height: 1px;
   width: 26px;
-  background: #73a99b;
+  background: #7385a9;
 }
 .overview {
   background: #fff;
-  border: 1px solid #d4e0dc;
+  border: 1px solid #d4d8e0;
   border-radius: 10px;
-  box-shadow: 0 24px 64px -30px #12372e55;
+  box-shadow: 0 24px 64px -30px #121e3755;
   transform: rotate(-1deg);
   font-size: 13px;
 }
@@ -253,14 +254,14 @@ svg {
   place-items: center;
   width: 23px;
   height: 23px;
-  background: #17463e;
-  color: #96e4c8;
+  background: #235ce0;
+  color: #96b0e4;
   border-radius: 5px;
 }
 .concept-label {
   font-size: 10px;
   letter-spacing: 0.08em;
-  color: #687c73;
+  color: #686f7c;
 }
 .overview-body {
   padding: 28px 24px 23px;
@@ -274,7 +275,7 @@ svg {
 .micro-label {
   font-size: 10px;
   letter-spacing: 0.13em;
-  color: #788981;
+  color: #787e89;
 }
 .enterprise-redesign .overview-title h2 {
   font-size: 25px;
@@ -284,7 +285,7 @@ svg {
 .overview-title > svg {
   width: 34px;
   height: 34px;
-  color: #378b76;
+  color: #235ce0;
 }
 .overview-stats {
   display: grid;
@@ -293,14 +294,14 @@ svg {
   margin-bottom: 25px;
 }
 .overview-stats > div {
-  border: 1px solid #e2e9e5;
+  border: 1px solid #e2e4e9;
   border-radius: 5px;
   padding: 14px;
-  background: #fafcfb;
+  background: #fafbfc;
 }
 .overview-stats > div > span {
   font-size: 11px;
-  color: #6b7e75;
+  color: #6b717e;
   display: block;
   margin-bottom: 5px;
 }
@@ -324,7 +325,7 @@ svg {
   justify-content: space-between;
   font-size: 9px;
   letter-spacing: 0.1em;
-  color: #7c8c83;
+  color: #7c818c;
   padding-bottom: 12px;
 }
 .overview-row {
@@ -332,7 +333,7 @@ svg {
   justify-content: space-between;
   gap: 12px;
   padding: 13px 0;
-  border-top: 1px solid #e9efec;
+  border-top: 1px solid #e9ebef;
 }
 .overview-row > span {
   display: flex;
@@ -343,13 +344,13 @@ svg {
   font-weight: 500;
 }
 .overview-row > span:last-child {
-  color: #64766b;
+  color: #646a76;
   font-size: 11px;
 }
 .overview-row svg {
   width: 17px;
   height: 17px;
-  color: #448373;
+  color: #235ce0;
 }
 .overview-row b {
   font-weight: 400;
@@ -358,19 +359,19 @@ svg {
 .evidence-strip {
   display: flex;
   gap: 12px;
-  background: #eef6f1;
+  background: #eef1f6;
   border-radius: 5px;
   padding: 13px;
   margin-top: 12px;
 }
 .evidence-check {
-  border: 1px solid #bad9c5;
+  border: 1px solid #bac4d9;
   border-radius: 50%;
   width: 23px;
   height: 23px;
   display: grid;
   place-items: center;
-  color: #42896a;
+  color: #235ce0;
 }
 .evidence-strip strong {
   font-size: 11px;
@@ -380,7 +381,7 @@ svg {
 .evidence-strip div > span {
   display: block;
   font-size: 10px;
-  color: #618271;
+  color: #616c82;
   margin-top: 3px;
 }
 .overview-foot {
@@ -390,23 +391,23 @@ svg {
   align-items: center;
   gap: 7px;
   font-size: 10px;
-  color: #698071;
+  color: #697180;
 }
 .hero-bottom-line {
-  border-top: 1px solid #dce5e0;
+  border-top: 1px solid #dcdfe5;
   margin-top: 66px;
   padding: 23px 0;
   display: flex;
   align-items: center;
   gap: 50px;
   font-size: 13px;
-  color: #61776c;
+  color: #616877;
 }
 .hero-bottom-line > span:first-child {
   font-size: 10px;
   letter-spacing: 0.13em;
   margin-right: auto;
-  color: #708075;
+  color: #707580;
 }
 .value-bar {
   display: grid;
@@ -424,7 +425,7 @@ svg {
   left: 0;
   top: 2px;
   font-size: 12px;
-  color: #739185;
+  color: #737d91;
 }
 .value-bar strong {
   font-size: 15px;
@@ -432,7 +433,7 @@ svg {
 }
 .value-bar p {
   font-size: 13px;
-  color: #708078;
+  color: #707580;
   margin: 4px 0 0;
 }
 .products-heading {
@@ -471,8 +472,8 @@ svg {
 }
 .product-card:hover {
   transform: translateY(-5px);
-  border-color: #78aa96;
-  box-shadow: 0 10px 22px #103d3510;
+  border-color: #7889aa;
+  box-shadow: 0 10px 22px #101f3d10;
 }
 .product-card-top {
   display: flex;
@@ -485,9 +486,9 @@ svg {
   height: 44px;
   display: grid;
   place-items: center;
-  background: #eaf2ef;
+  background: #eaedf2;
   border-radius: 8px;
-  color: #2b7564;
+  color: #235ce0;
 }
 .product-icon svg {
   width: 23px;
@@ -495,12 +496,12 @@ svg {
 }
 .product-number {
   font-size: 12px;
-  color: #95a49e;
+  color: #959aa4;
 }
 .product-card .eyebrow {
   font-size: 9px;
   letter-spacing: 0.1em;
-  color: #647c70;
+  color: #646c7c;
 }
 .product-card h3 {
   font-size: 23px;
@@ -523,8 +524,8 @@ svg {
 }
 .product-tags span {
   font-size: 10px;
-  background: #f2f6f4;
-  color: #60776a;
+  background: #f2f3f6;
+  color: #606877;
   border-radius: 3px;
   padding: 3px 6px;
 }
@@ -539,7 +540,7 @@ svg {
 }
 .card-link > span {
   font-size: 20px;
-  color: #44745f;
+  color: #235ce0;
 }
 .suite-note {
   display: flex;
@@ -547,7 +548,7 @@ svg {
   gap: 10px;
   padding: 24px 0 0;
   font-size: 13px;
-  color: #697c71;
+  color: #696f7c;
 }
 .suite-note p {
   margin: 0;
@@ -558,7 +559,7 @@ svg {
   text-underline-offset: 4px;
 }
 .enterprise-redesign .ai-agents {
-  background: #f4f7f7;
+  background: #f4f5f7;
   border-top: 1px solid var(--line);
 }
 .enterprise-redesign .agent-visual-panel {
@@ -567,11 +568,11 @@ svg {
   background: #fff;
 }
 .enterprise-redesign .agent-selector button[aria-selected="true"] {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
 }
 .enterprise-redesign .agent-task {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
 }
 .enterprise-redesign .agent-panel-title h3 {
@@ -579,10 +580,10 @@ svg {
   letter-spacing: -0.025em;
 }
 .enterprise-redesign .agent-diagram {
-  background: #f2f6f4;
+  background: #f2f3f6;
 }
 .enterprise-redesign .mission {
-  background: #143e3b;
+  background: #123a82;
   color: #fff;
   border: 0;
 }
@@ -591,13 +592,13 @@ svg {
   font-size: clamp(38px, 4.3vw, 62px);
 }
 .enterprise-redesign .mission h2 em {
-  color: #a5d7c3;
+  color: #a5b6d7;
 }
 .enterprise-redesign .mission .eyebrow {
-  color: #a5d7c3;
+  color: #a5b6d7;
 }
 .enterprise-redesign .mission p {
-  color: #d2e1dc;
+  color: #d2d7e1;
 }
 .enterprise-redesign .founder-section {
   background: #fff;
@@ -616,7 +617,7 @@ svg {
   border-color: var(--line);
 }
 .enterprise-redesign .maturity-section {
-  background: #f2f6f4;
+  background: #f2f3f6;
 }
 .enterprise-redesign .maturity-grid {
   gap: 20px;
@@ -628,8 +629,8 @@ svg {
   padding: 26px;
 }
 .enterprise-redesign .maturity-status {
-  color: #376d5b;
-  background: #edf5f0;
+  color: #235ce0;
+  background: #edf0f5;
 }
 .enterprise-redesign .contact-section {
   background: #fff;
@@ -637,36 +638,36 @@ svg {
 .enterprise-redesign .contact-card {
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: #f7faf8;
+  background: #f7f8fa;
 }
 .enterprise-redesign .demo-card {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
 }
 .enterprise-redesign .demo-card p,
 .enterprise-redesign .demo-card small,
 .enterprise-redesign .demo-card .contact-kicker {
-  color: #cfdfd8;
+  color: #cfd4df;
 }
 .enterprise-redesign .primary {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
-  border: 1px solid #173e3c;
+  border: 1px solid #235ce0;
   border-radius: 5px;
   font-size: 14px;
   letter-spacing: 0;
 }
 .enterprise-redesign .demo-card .primary {
-  background: #d3f2e4;
-  color: #143e3b;
-  border-color: #d3f2e4;
+  background: #d3ddf2;
+  color: #123a82;
+  border-color: #d3ddf2;
 }
 .enterprise-redesign .demo-products span {
   color: inherit;
-  border-color: #7b968b;
+  border-color: #7b8496;
 }
 .enterprise-redesign .engage-section {
-  background: #f4f7f5;
+  background: #f4f5f7;
   border-top: 1px solid var(--line);
 }
 .enterprise-redesign .engage-grid article {
@@ -676,8 +677,8 @@ svg {
   background: #fff;
 }
 .new-footer {
-  background: #102e30;
-  color: #eff6f1;
+  background: #0d2452;
+  color: #eff1f6;
   padding: 60px max(5%, calc((100vw - 1280px) / 2)) 20px;
 }
 .footer-main {
@@ -692,34 +693,35 @@ svg {
   gap: 12px;
 }
 .footer-main .brand {
+  color: #fff;
   align-self: start;
   font-size: 34px;
 }
 .footer-main p {
   font-size: 13px;
-  color: #9fb9ae;
+  color: #9fa8b9;
   margin-top: 13px;
 }
 .footer-main a:not(.brand) {
   font-size: 13px;
-  color: #c0d2c8;
+  color: #c0c6d2;
 }
 .enterprise-redesign .footer-main .eyebrow {
-  color: #86ab9c;
+  color: #8692ab;
   margin-bottom: 9px;
   font-size: 11px;
 }
 .footer-meta {
-  border-top: 1px solid #37534d;
+  border-top: 1px solid #374053;
   padding-top: 22px;
   display: flex;
   justify-content: space-between;
   gap: 16px;
   font-size: 11px;
-  color: #9fb5ab;
+  color: #9fa6b5;
 }
 .enterprise-redesign .workflow-hero {
-  background: #f2f7f4;
+  background: #f2f4f7;
 }
 .enterprise-redesign .workflow-hero h1 {
   font-size: clamp(42px, 5vw, 70px);
@@ -727,15 +729,15 @@ svg {
   letter-spacing: -0.04em;
 }
 .enterprise-redesign .workflow-hero h1 em {
-  color: #367d67;
+  color: #235ce0;
 }
 .enterprise-redesign .journey-tabs button[aria-selected="true"] {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
 }
 .enterprise-redesign .journey-node.hub,
 .enterprise-redesign .stage-controls button {
-  background: #173e3c;
+  background: #235ce0;
   color: #fff;
 }
 .enterprise-redesign .journey-panel {
@@ -744,13 +746,13 @@ svg {
   border-color: var(--line);
 }
 .enterprise-redesign .journey-canvas {
-  background: #f0f6f2;
+  background: #f0f2f6;
 }
 .enterprise-redesign .flow-node {
   border-color: var(--line);
 }
 .enterprise-redesign .architecture-note {
-  color: #586f63;
+  color: #58606f;
 }
 .mobile-nav-new {
   padding: 8px 5% 22px;
@@ -1091,4 +1093,19 @@ svg {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* Inverse brand treatment on the blue footer and demo panel. */
+.new-footer .brand-dot {
+  color: #93b9ff;
+}
+.enterprise-redesign .demo-card .primary {
+  background: #fff;
+  color: #1948b8;
+  border-color: #fff;
+}
+.enterprise-redesign .primary:hover,
+.enterprise-redesign .stage-controls button:hover {
+  background: #1948b8;
+  color: #fff;
 }
